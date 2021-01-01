@@ -10,13 +10,7 @@
     <maven.compiler.target>7</maven.compiler.target>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-    </dependency>
-  </dependencies>
+  
 
  <build>
   <plugins>
@@ -43,19 +37,6 @@
   </plugins>
  </build>
   
-  <distributionManagement>
-	<repository>
-		<id>deployment</id>
-		<name>Internal Releases</name>
-		<url>http://localhost:9081/repository/maven-releases/</url>
-	</repository>
- 
-	<snapshotRepository>
-		<id>deployment</id>
-		<name>Internal Releases</name>
-		<url>http://localhost:9081/repository/maven-snapshots/</url>
-	</snapshotRepository>
-
-</distributionManagement>
+  
   
 </project>
